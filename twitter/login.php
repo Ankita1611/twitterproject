@@ -13,7 +13,7 @@ $connection = new TwitterOAuth($consumer_key, $consumer_secret);
 $request_token = $connection->oauth(
     'oauth/request_token',
     [
-        'oauth_callback' => 'http://ramanicare.com/twitter/hello'
+        'oauth_callback' => 'http://ramanicare.com/twitter-ankita/hello'
     ]
 );
 
